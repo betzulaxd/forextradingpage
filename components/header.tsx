@@ -110,7 +110,7 @@ export function Header() {
                 <Button 
                   variant="outline" 
                   className="flex-1"
-                  onClick={() => router.push(`/${locale}/login`)}
+                  onClick={() => router.push(`https://188.132.198.100:3000/`)}
                 >
                   {t("navigation.login")}
                 </Button>
