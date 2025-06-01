@@ -1,0 +1,112 @@
+{
+  "navigation": {
+    "home": "Home",
+    "market": "Market",
+    "about": "About",
+    "contact": "Contact",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "login": "Start now!",
+    "register": "Register"
+  },
+  "hero": {
+    "title": "Cryptocurrency Market",
+    "subtitle": "Live Tracking Platform",
+    "description": "Track the latest cryptocurrency data in real-time. Stay informed about all market developments instantly.",
+    "lastUpdate": "Last Update"
+  },
+  "market": {
+    "title": "Market Data",
+    "description": "Current prices, market values, and 24-hour changes of the most popular cryptocurrencies",
+    "search": "Search cryptocurrency...",
+    "filters": "Filters",
+    "allPrices": "All Prices",
+    "under1": "Under $1",
+    "1to100": "$1 - $100",
+    "100to1000": "$100 - $1000",
+    "over1000": "Over $1000",
+    "allChanges": "All Changes",
+    "positive": "Gainers",
+    "negative": "Losers",
+    "highGain": ">5% Gain",
+    "highLoss": ">5% Loss",
+    "coinsShowing": "cryptocurrencies shown",
+    "for": "for",
+    "loading": "Loading data...",
+    "noResults": "No results found",
+    "clearFilters": "Clear Filters",
+    "rank": "Rank",
+    "coin": "Cryptocurrency",
+    "price": "Price",
+    "change24h": "24h Change",
+    "volume24h": "24h Volume",
+    "marketCap": "Market Cap",
+    "trend": "Trend"
+  },
+  "about": {
+    "title": "Why Choose Us?",
+    "description": "All the features you need to track the cryptocurrency market in one platform.",
+    "realData": {
+      "title": "Real-Time Data",
+      "description": "We provide you with the latest data through CoinGecko API integration."
+    },
+    "reliableSource": {
+      "title": "Reliable Source",
+      "description": "Our data comes from CoinGecko, one of the most trusted sources in the cryptocurrency world."
+    },
+    "liveUpdate": {
+      "title": "Automatic Updates",
+      "description": "Data is automatically updated every 30 seconds, keeping you always up to date."
+    }
+  },
+  "stats": {
+    "coinsShown": "Listed Coins",
+    "updateFreq": "Update Frequency",
+    "uptime": "24/7 Service",
+    "realtime": "Real-Time"
+  },
+  "footer": {
+    "description": "Leading platform providing reliable data and professional analysis in the cryptocurrency market.",
+    "quickLinks": "Quick Links",
+    "support": "Support",
+    "legal": "Legal",
+    "contact": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "addressText": "Istanbul, Turkey",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved.",
+    "dataSource": "Data provided by CoinGecko API",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "helpCenter": "Help Center"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "toggle": "Toggle theme"
+  },
+  "coinDetail": {
+    "loading": "Loading...",
+    "error": "An error occurred while loading coin information",
+    "backToHome": "Back to Home",
+    "back": "Back",
+    "website": "Official Website",
+    "currentPrice": "Current Price",
+    "marketCap": "Market Cap",
+    "volume24h": "24h Volume",
+    "marketStats": "Market Statistics",
+    "circulatingSupply": "Circulating Supply",
+    "totalSupply": "Total Supply",
+    "maxSupply": "Max Supply",
+    "unlimited": "Unlimited",
+    "ath": "All Time High",
+    "atl": "All Time Low",
+    "about": "About"
+  },
+  "Index": {
+    "title": "Hello World"
+  }
+}

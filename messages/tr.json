@@ -1,0 +1,112 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "market": "Piyasa",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "blog": "Blog",
+    "faq": "SSS",
+    "login": "Hemen Başla!",
+    "register": "Kayıt Ol"
+  },
+  "hero": {
+    "title": "Kripto Para Piyasası",
+    "subtitle": "Canlı Takip Platformu",
+    "description": "En güncel kripto para verilerini anlık olarak takip edin. Piyasadaki tüm gelişmelerden anında haberdar olun.",
+    "lastUpdate": "Son Güncelleme"
+  },
+  "market": {
+    "title": "Piyasa Verileri",
+    "description": "En popüler kripto paraların güncel fiyatları, piyasa değerleri ve 24 saatlik değişimleri",
+    "search": "Kripto para ara...",
+    "filters": "Filtreler",
+    "allPrices": "Tüm Fiyatlar",
+    "under1": "$1 Altı",
+    "1to100": "$1 - $100",
+    "100to1000": "$100 - $1000",
+    "over1000": "$1000 Üzeri",
+    "allChanges": "Tüm Değişimler",
+    "positive": "Yükselenler",
+    "negative": "Düşenler",
+    "highGain": ">5% Yükseliş",
+    "highLoss": ">5% Düşüş",
+    "coinsShowing": "kripto para gösteriliyor",
+    "for": "için",
+    "loading": "Veriler yükleniyor...",
+    "noResults": "Sonuç bulunamadı",
+    "clearFilters": "Filtreleri Temizle",
+    "rank": "Sıra",
+    "coin": "Kripto Para",
+    "price": "Fiyat",
+    "change24h": "24s Değişim",
+    "volume24h": "24s Hacim",
+    "marketCap": "Piyasa Değeri",
+    "trend": "Trend"
+  },
+  "about": {
+    "title": "Neden Bizi Tercih Etmelisiniz?",
+    "description": "Kripto para piyasasını takip etmek için ihtiyacınız olan tüm özellikler tek bir platformda.",
+    "realData": {
+      "title": "Gerçek Zamanlı Veriler",
+      "description": "CoinGecko API ile entegre çalışarak size en güncel verileri sunuyoruz."
+    },
+    "reliableSource": {
+      "title": "Güvenilir Kaynak",
+      "description": "Verilerimiz kripto para dünyasının en güvenilir kaynaklarından biri olan CoinGecko'dan gelmektedir."
+    },
+    "liveUpdate": {
+      "title": "Otomatik Güncelleme",
+      "description": "Veriler her 30 saniyede bir otomatik olarak güncellenir, böylece her zaman güncel kalırsınız."
+    }
+  },
+  "stats": {
+    "coinsShown": "Listelenen Coin",
+    "updateFreq": "Güncelleme Sıklığı",
+    "uptime": "Kesintisiz Hizmet",
+    "realtime": "Gerçek Zamanlı"
+  },
+  "footer": {
+    "description": "Kripto para piyasasında güvenilir veriler ve profesyonel analizler sunan lider platform.",
+    "quickLinks": "Hızlı Linkler",
+    "support": "Destek",
+    "legal": "Yasal",
+    "contact": "İletişim",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "address": "Adres",
+    "addressText": "İstanbul, Türkiye",
+    "followUs": "Bizi Takip Edin",
+    "rights": "Tüm hakları saklıdır.",
+    "dataSource": "Veriler CoinGecko API ile sağlanmaktadır",
+    "terms": "Kullanım Şartları",
+    "privacy": "Gizlilik Politikası",
+    "helpCenter": "Yardım Merkezi"
+  },
+  "theme": {
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Sistem",
+    "toggle": "Tema değiştir"
+  },
+  "coinDetail": {
+    "loading": "Yükleniyor...",
+    "error": "Coin bilgileri yüklenirken bir hata oluştu",
+    "backToHome": "Ana Sayfaya Dön",
+    "back": "Geri",
+    "website": "Resmi Web Sitesi",
+    "currentPrice": "Güncel Fiyat",
+    "marketCap": "Piyasa Değeri",
+    "volume24h": "24s Hacim",
+    "marketStats": "Piyasa İstatistikleri",
+    "circulatingSupply": "Dolaşımdaki Arz",
+    "totalSupply": "Toplam Arz",
+    "maxSupply": "Maksimum Arz",
+    "unlimited": "Sınırsız",
+    "ath": "Tüm Zamanların En Yükseği",
+    "atl": "Tüm Zamanların En Düşüğü",
+    "about": "Hakkında"
+  },
+  "Index": {
+    "title": "Merhaba Dünya"
+  }
+}

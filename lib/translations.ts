@@ -1,0 +1,368 @@
+// TR ve EN çevirileri
+export const translations = {
+  tr: {
+    navigation: {
+      home: "Ana Sayfa",
+      market: "Piyasa",
+      about: "Hakkımızda",
+      contact: "İletişim",
+      blog: "Blog",
+      faq: "SSS",
+      getStarted: "Şimdi Başla!",
+      register: "Kayıt Ol",
+    },
+    hero: {
+      title: "Gerçek Zamanlı",
+      subtitle: "Kripto Piyasası",
+      description:
+        "Anlık piyasa verileri ve profesyonel analizlerle kripto para dünyasında bir adım önde olun. Güncel fiyatlar ve piyasa trendlerini takip edin.",
+      lastUpdate: "Son güncelleme",
+    },
+    market: {
+      title: "Anlık Piyasa Verileri",
+      description: "CoinGecko API ile gerçek zamanlı kripto para fiyatları",
+      search: "Coin ara (Bitcoin, BTC...)",
+      filters: "Filtreler",
+      allPrices: "Tüm Fiyatlar",
+      under1: "$1'den Az",
+      "1to100": "$1 - $100",
+      "100to1000": "$100 - $1,000",
+      over1000: "$1,000'den Fazla",
+      allChanges: "Tüm Değişimler",
+      positive: "Yükselenler",
+      negative: "Düşenler",
+      highGain: "+5%'den Fazla",
+      highLoss: "-5%'den Fazla",
+      coinsShowing: "coin gösteriliyor",
+      for: "için",
+      loading: "Piyasa verileri yükleniyor...",
+      noResults: "Arama kriterlerinize uygun coin bulunamadı",
+      clearFilters: "Filtreleri Temizle",
+      rank: "#",
+      coin: "Coin",
+      price: "Fiyat",
+      change24h: "24s Değişim",
+      volume24h: "24s Hacim",
+      marketCap: "Piyasa Değeri",
+      trend: "Trend",
+    },
+    about: {
+      title: "Hakkımızda",
+      description: "TradePro olarak, yatırımcılara en doğru ve güncel piyasa verilerini sunuyoruz",
+      realData: {
+        title: "Gerçek Veriler",
+        description: "CoinGecko API ile doğrudan borsalardan gelen gerçek zamanlı veriler sunuyoruz.",
+      },
+      reliableSource: {
+        title: "Güvenilir Kaynak",
+        description: "Dünya çapında güvenilen CoinGecko platformundan anlık piyasa verilerini alıyoruz.",
+      },
+      liveUpdate: {
+        title: "Anlık Güncelleme",
+        description: "30 saniyede bir otomatik güncellenen verilerle piyasayı anlık takip edin.",
+      },
+    },
+    stats: {
+      coinsShown: "Gösterilen Coin",
+      updateFreq: "Güncelleme Sıklığı",
+      uptime: "Kesintisiz Hizmet",
+      realtime: "Gerçek Zamanlı",
+    },
+    footer: {
+      description: "Kripto para piyasasında güvenilir veriler ve profesyonel analizler sunan lider platform.",
+      quickLinks: "Hızlı Linkler",
+      support: "Destek",
+      legal: "Yasal",
+      contact: "İletişim",
+      email: "E-posta",
+      phone: "Telefon",
+      address: "Adres",
+      addressText: "İstanbul, Türkiye",
+      followUs: "Bizi Takip Edin",
+      rights: "Tüm hakları saklıdır.",
+      dataSource: "Veriler CoinGecko API ile sağlanmaktadır",
+      terms: "Kullanım Şartları",
+      privacy: "Gizlilik Politikası",
+      helpCenter: "Yardım Merkezi",
+    },
+    theme: {
+      light: "Açık",
+      dark: "Koyu",
+      system: "Sistem",
+      toggle: "Tema değiştir",
+    },
+    coinDetail: {
+      back: "Geri",
+      website: "Website",
+      currentPrice: "Güncel Fiyat",
+      marketCap: "Piyasa Değeri",
+      volume24h: "24s Hacim",
+      circulatingSupply: "Dolaşımdaki Arz",
+      priceChanges: "Fiyat Değişimleri",
+      "24h": "24 Saat",
+      "7d": "7 Gün",
+      "30d": "30 Gün",
+      marketStats: "Piyasa İstatistikleri",
+      ath: "En Yüksek (ATH)",
+      atl: "En Düşük (ATL)",
+      totalSupply: "Toplam Arz",
+      maxSupply: "Maksimum Arz",
+      unlimited: "Sınırsız",
+      about: "Hakkında",
+      priceHistory: "Fiyat Geçmişi",
+      loading: "Coin detayları yükleniyor...",
+      error: "Coin verileri yüklenirken bir hata oluştu",
+      notFound: "Coin bulunamadı",
+      backToHome: "Ana Sayfaya Dön",
+    },
+    blog: {
+      title: "Kripto Blog",
+      description: "Kripto para dünyasından en güncel haberler, analizler ve rehberler",
+      search: "Makale ara...",
+      featuredArticles: "Öne Çıkan Makaleler",
+      latestArticles: "Son Makaleler",
+      featured: "Öne Çıkan",
+      minRead: "dk okuma",
+      noArticles: "Makale bulunamadı.",
+      stayUpdated: "Güncel Kalın",
+      newsletterDesc: "En güncel kripto haberleri ve analizleri almak için bültenimize abone olun.",
+      enterEmail: "E-posta adresinizi girin",
+      subscribe: "Abone Ol",
+      newsletterDemo: "Bu bir demo uygulamadır. Bülten aboneliği bulunmamaktadır.",
+    },
+    faq: {
+      title: "Sık Sorulan Sorular",
+      description: "TradePro hakkında en çok sorulan soruların cevaplarını bulun",
+      searchQuestions: "Soru ara...",
+      all: "Tümü",
+      noQuestions: "Soru bulunamadı.",
+      cantFind: "Aradığınızı bulamadınız mı?",
+      otherQuestions: "Başka sorularınız varsa, bizimle iletişime geçmekten çekinmeyin.",
+      contactUs: "İletişime Geçin",
+    },
+    contact: {
+      title: "İletişim",
+      description:
+        "Sorularınız, önerileriniz veya destek talepleriniz için bizimle iletişime geçin. Size yardımcı olmaktan mutluluk duyarız.",
+      info: "İletişim Bilgileri",
+      email: "E-posta",
+      phone: "Telefon",
+      address: "Adres",
+      workingHours: "Çalışma Saatleri",
+      writeUs: "Bize Yazın",
+      name: "Ad Soyad",
+      subject: "Konu",
+      message: "Mesaj",
+      send: "Mesaj Gönder",
+      demoAlert: "Bu bir demo uygulamadır. Mesajınız kaydedildi ancak gerçek bir mesaj gönderilmemiştir.",
+    },
+    terms: {
+      title: "Kullanım Şartları",
+      description: "TradePro'yu kullanmadan önce lütfen bu şartları dikkatlice okuyun",
+      lastUpdated: "Son güncelleme: Ocak 2024",
+    },
+    privacy: {
+      title: "Gizlilik Politikası",
+      description: "Gizliliğinizi nasıl koruduğumuz ve verilerinizi nasıl işlediğimiz hakkında bilgi edinin",
+      lastUpdated: "Son güncelleme: Ocak 2024",
+    },
+  },
+  en: {
+    navigation: {
+      home: "Home",
+      market: "Market",
+      about: "About",
+      contact: "Contact",
+      blog: "Blog",
+      faq: "FAQ",
+      getStarted: "Get Started!",
+      register: "Register",
+    },
+    hero: {
+      title: "Real-Time",
+      subtitle: "Crypto Market",
+      description:
+        "Stay ahead in the crypto world with real-time market data and professional analysis. Track current prices and market trends.",
+      lastUpdate: "Last update",
+    },
+    market: {
+      title: "Live Market Data",
+      description: "Real-time cryptocurrency prices with CoinGecko API",
+      search: "Search coin (Bitcoin, BTC...)",
+      filters: "Filters",
+      allPrices: "All Prices",
+      under1: "Under $1",
+      "1to100": "$1 - $100",
+      "100to1000": "$100 - $1,000",
+      over1000: "Over $1,000",
+      allChanges: "All Changes",
+      positive: "Gainers",
+      negative: "Losers",
+      highGain: "Over +5%",
+      highLoss: "Over -5%",
+      coinsShowing: "coins showing",
+      for: "for",
+      loading: "Loading market data...",
+      noResults: "No coins found matching your criteria",
+      clearFilters: "Clear Filters",
+      rank: "#",
+      coin: "Coin",
+      price: "Price",
+      change24h: "24h Change",
+      volume24h: "24h Volume",
+      marketCap: "Market Cap",
+      trend: "Trend",
+    },
+    about: {
+      title: "About Us",
+      description: "As TradePro, we provide investors with the most accurate and up-to-date market data",
+      realData: {
+        title: "Real Data",
+        description: "We provide real-time data directly from exchanges via CoinGecko API.",
+      },
+      reliableSource: {
+        title: "Reliable Source",
+        description: "We get real-time market data from the globally trusted CoinGecko platform.",
+      },
+      liveUpdate: {
+        title: "Live Updates",
+        description: "Track the market in real-time with data automatically updated every 30 seconds.",
+      },
+    },
+    stats: {
+      coinsShown: "Coins Shown",
+      updateFreq: "Update Frequency",
+      uptime: "Uptime",
+      realtime: "Real-Time",
+    },
+    footer: {
+      description: "Leading platform providing reliable data and professional analysis in the cryptocurrency market.",
+      quickLinks: "Quick Links",
+      support: "Support",
+      legal: "Legal",
+      contact: "Contact",
+      email: "Email",
+      phone: "Phone",
+      address: "Address",
+      addressText: "Istanbul, Turkey",
+      followUs: "Follow Us",
+      rights: "All rights reserved.",
+      dataSource: "Data provided by CoinGecko API",
+      terms: "Terms of Service",
+      privacy: "Privacy Policy",
+      helpCenter: "Help Center",
+    },
+    theme: {
+      light: "Light",
+      dark: "Dark",
+      system: "System",
+      toggle: "Toggle theme",
+    },
+    coinDetail: {
+      back: "Back",
+      website: "Website",
+      currentPrice: "Current Price",
+      marketCap: "Market Cap",
+      volume24h: "24h Volume",
+      circulatingSupply: "Circulating Supply",
+      priceChanges: "Price Changes",
+      "24h": "24 Hours",
+      "7d": "7 Days",
+      "30d": "30 Days",
+      marketStats: "Market Statistics",
+      ath: "All-Time High (ATH)",
+      atl: "All-Time Low (ATL)",
+      totalSupply: "Total Supply",
+      maxSupply: "Max Supply",
+      unlimited: "Unlimited",
+      about: "About",
+      priceHistory: "Price History",
+      loading: "Loading coin details...",
+      error: "An error occurred while loading coin data",
+      notFound: "Coin not found",
+      backToHome: "Back to Home",
+    },
+    blog: {
+      title: "Crypto Blog",
+      description: "Latest news, analysis and guides from the cryptocurrency world",
+      search: "Search articles...",
+      featuredArticles: "Featured Articles",
+      latestArticles: "Latest Articles",
+      featured: "Featured",
+      minRead: "min read",
+      noArticles: "No articles found.",
+      stayUpdated: "Stay Updated",
+      newsletterDesc: "Subscribe to our newsletter to get the latest crypto news and analysis.",
+      enterEmail: "Enter your email",
+      subscribe: "Subscribe",
+      newsletterDemo: "This is a demo app. Newsletter subscription is not available.",
+    },
+    faq: {
+      title: "Frequently Asked Questions",
+      description: "Find answers to the most frequently asked questions about TradePro",
+      searchQuestions: "Search questions...",
+      all: "All",
+      noQuestions: "No questions found.",
+      cantFind: "Couldn't find what you're looking for?",
+      otherQuestions: "If you have any other questions, feel free to contact us.",
+      contactUs: "Contact Us",
+    },
+    contact: {
+      title: "Contact",
+      description: "For questions, suggestions or support requests, please contact us. We are happy to help you.",
+      info: "Contact Information",
+      email: "Email",
+      phone: "Phone",
+      address: "Address",
+      workingHours: "Working Hours",
+      writeUs: "Write to Us",
+      name: "Full Name",
+      subject: "Subject",
+      message: "Message",
+      send: "Send Message",
+      demoAlert: "This is a demo app. Your message has been saved but no real message has been sent.",
+    },
+    terms: {
+      title: "Terms of Service",
+      description: "Please read these terms carefully before using TradePro",
+      lastUpdated: "Last updated: January 2024",
+    },
+    privacy: {
+      title: "Privacy Policy",
+      description: "Learn how we protect your privacy and handle your data",
+      lastUpdated: "Last updated: January 2024",
+    },
+  },
+}
+
+// Dil değiştirme fonksiyonları
+export function getLanguage(): string {
+  if (typeof window !== "undefined") {
+    return localStorage.getItem("language") || "tr"
+  }
+  return "tr"
+}
+
+export function setLanguage(lang: string): void {
+  if (typeof window !== "undefined") {
+    localStorage.setItem("language", lang)
+  }
+}
+
+// Çeviri fonksiyonu
+export function t(key: string, lang?: string): string {
+  const language = lang || getLanguage()
+  const keys = key.split(".")
+
+  let value: any = translations[language as keyof typeof translations]
+
+  for (const k of keys) {
+    if (value && value[k]) {
+      value = value[k]
+    } else {
+      return key // Çeviri bulunamadı, key'i döndür
+    }
+  }
+
+  return value
+}
