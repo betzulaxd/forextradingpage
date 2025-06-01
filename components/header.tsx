@@ -77,7 +77,7 @@ export function Header() {
               <Button
                 variant="outline"
                 className="border-gray-300 text-black hover:bg-black hover:text-white dark:border-gray-700 dark:text-white dark:hover:bg-white dark:hover:text-black"
-                onClick={() => router.push('188.132.198.100:3000')}
+                onClick={() => router.push('http://188.132.198.100:3000/')}
               >
                 {t("navigation.login")}
               </Button>
